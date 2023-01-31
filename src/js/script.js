@@ -13,6 +13,7 @@
       },
       book: {
         image: '.book__image',
+        rating: '.book__rating__fill',
       },
     };
   
@@ -61,6 +62,8 @@
                     ratingWidth: ratingWidthTemp,
                     ratingBgc: ratingBgcTemp,
                 });
+
+                
                 const bookDOM = utils.createDOMFromHTML(bookHTML);
             
                 thisBookList.bookContainer.appendChild(bookDOM);
